@@ -1,0 +1,13 @@
+# Ignorar todo en la raíz del usuario
+/*
+
+# Permitir explícitamente solo estas carpetas
+!/mosquitto/
+!/esp32/
+!/README.md
+!/.gitignore
+
+# Excepciones de seguridad dentro de esas carpetas
+mosquitto/data/
+mosquitto/log/
+mosquitto/config/password.txt
