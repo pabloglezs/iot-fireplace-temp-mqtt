@@ -19,7 +19,7 @@ El sistema sigue el siguiente camino de información:
 
 * `/android-app`: Proyecto de Android Studio (Java/Kotlin).
 * `/esp32`: Sketches de Arduino (.ino) y definición de pines.
-* `/broker-mqtt`: Archivos de configuración `.conf` y scripts de despliegue.
+* `/mosquitto`: Archivos de configuración `.conf` y scripts de despliegue.
 * `/docs`: Diagramas de conexión y documentación técnica.
 
 ---
