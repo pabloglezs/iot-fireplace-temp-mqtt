@@ -38,7 +38,7 @@ El corazón de las comunicaciones funciona sobre **Mosquitto** dentro de un cont
 * **Configuración:** Incluye persistencia de datos y autenticación por usuario/contraseña.
 * **Despliegue:**
 ```
-cd broker-mqtt
+cd mosquitto
 docker-compose up -d
 ```
 
