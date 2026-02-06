@@ -11,13 +11,6 @@ const int ONE_WIRE_BUS = 4;
 OneWire oneWire(ONE_WIRE_BUS);
 DallasTemperature sensors(&oneWire);
 
-// Configuración red y MQTT
-const char* ssid = "TP-Link_F09E";
-const char* password = "Colegiado";
-const char* mqtt_server = "pabloglezs.es";
-
-const char* mqtt_user = "pablo";
-const char* mqtt_password = "Colegiado97!";
 
 WiFiClient espClient;
 PubSubClient client(espClient);
@@ -30,6 +23,7 @@ void setup_wifi() {
         Serial.print(".");
     }
     Serial.println("\nWiFi Conectado");
+    Serial.println(ssid);
 }
 
 void callback(char* topic, byte* payload, unsigned int length) {
